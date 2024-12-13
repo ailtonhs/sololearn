@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <h1>Document Object Model</h1>
+
+    <h3 id="h3">Cabeçalho 3 original</h3>
+    <p id="p1">Parágrafo original</p>
+
+    <script>
+        document.getElementById("h3").textContent = "Cabeçalho atualizado";
+        document.getElementById("p1").textContent = "Parágrafo atualizado";
+
+        // .textContent é usado para acessar o conteúdo de texto de um elemento
+    </script>
+</body>
+</html>

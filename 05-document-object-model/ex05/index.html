@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <h1>Document Object Model</h1>
+    <p id="p1">Texto de parágrafo.</p>
+
+    <script>
+        let p1 = document.getElementById("p1");
+        alert(p1.textContent) //exibi o conteudo do parágrafo no alert
+
+        p1.textContent = "Parágrafo atualizado"; //atualiza o paragrafo acessando sua variável
+    </script>
+</body>
+</html>
